@@ -3,7 +3,7 @@ import axios from 'axios'
 import React, {useState} from 'react'
 import { useNavigate } from 'react-router-dom'
 
-const endpoint = 'http://localhost:8000/api/product'
+const endpoint = 'http://localhost:8000/api/register'
 
 const Register = () => {
     const [name, setName] = useState('')
@@ -45,7 +45,7 @@ const Register = () => {
                 <input 
                     value={password}
                     onChange={ (e)=> setPassword(e.target.value)}
-                    type='text'
+                    type='password'
                     className='form-control'
                 />
             </div>
@@ -54,7 +54,7 @@ const Register = () => {
                 <input 
                     value={password_confirmation}
                     onChange={ (e)=> setPassword_confirmation(e.target.value)}
-                    type='text'
+                    type='password'
                     className='form-control'
                 />
             </div>
