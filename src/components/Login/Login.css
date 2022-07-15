@@ -1,0 +1,17 @@
+body {
+    background-color: #1e1e2d;
+    color: white;
+}
+
+#form.label{
+    width: 200px;
+}
+
+#registrar{
+    text-decoration: none;
+    color: #3cdae5;
+}
+
+#card {
+    background-color: #0e1e2d;
+}
